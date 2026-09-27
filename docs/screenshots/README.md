@@ -5,4 +5,4 @@ Screenshots referenced from the main README. Suggested set:
 - `lock.png` — lock screen
 - `login.png` — login screen
 
-Don't commit screenshots that show a Lenovo wallpaper or logos.
+Screenshots may show the Lenovo wallpaper; it's for illustration and isn't bundled with the theme.

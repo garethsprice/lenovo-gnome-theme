@@ -4,7 +4,8 @@ lenovo-gnome-theme
 Trademarks
   Lenovo and Think are trademarks of Lenovo. This project is unofficial and is
   not affiliated with, endorsed by, or supported by Lenovo. It contains colour
-  values only; no Lenovo logos, fonts or images are included.
+  values only; no Lenovo logos, fonts or wallpapers are bundled or installed.
+  Screenshots in docs/screenshots show a Lenovo wallpaper for illustration.
 
 Yaru
   gdm/gdm.sh builds the login screen theme on the user's machine from the

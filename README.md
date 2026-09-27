@@ -2,7 +2,7 @@
 
 A dark GNOME desktop theme in the Lenovo brand palette: Signature Red accents on neutral dark greys. It covers the terminal, GTK apps, the top bar, the dock, the lock screen, the login screen and the boot splash.
 
-> **Unofficial.** This project is not affiliated with, endorsed by, or supported by Lenovo. "Lenovo" and "Think" are trademarks of Lenovo. The repo contains colour values only: no logos, fonts or images.
+> **Unofficial.** This project is not affiliated with, endorsed by, or supported by Lenovo. "Lenovo" and "Think" are trademarks of Lenovo. The theme itself contains colour values only; no logos, fonts or wallpapers are bundled or installed. The screenshots show a Lenovo wallpaper for illustration.
 
 <!-- ![Desktop](docs/screenshots/desktop.png) — add screenshots, see docs/screenshots/README.md -->
 
