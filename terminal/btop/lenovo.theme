@@ -1,6 +1,7 @@
 # Lenovo — btop theme built from the Lenovo brand palette (matches Ghostty "Lenovo" theme)
 #   Signature Red #E1251B · Accent Reds #F26A52 / #B8252E / #871C23 · Pale Gray #E6E2E4
-#   Neutral dark greys to match the GTK overrides. Green/blue/yellow are derived, not Lenovo.
+#   Deep Purple 2 #7A126B · Pale Purple 1 #D9C1D8 · neutral dark greys to match the GTK overrides.
+#   Green/blue/yellow are derived, not Lenovo.
 
 theme[main_bg]="#1C1A1C"
 theme[main_fg]="#E6E2E4"
@@ -19,15 +20,16 @@ theme[net_box]="#4A464A"
 theme[proc_box]="#4A464A"
 theme[div_line]="#3A363A"
 
-# Load gradients: pale peach -> coral -> Signature Red
-theme[temp_start]="#FFB9A2"
-theme[temp_mid]="#F26A52"
+# Load gradients: green (low) -> yellow -> Signature Red (high), so red only means "high".
+# Green and yellow are derived (Lenovo has none); they match the Ghostty palette.
+theme[temp_start]="#6CC49A"
+theme[temp_mid]="#F2B84B"
 theme[temp_end]="#E1251B"
-theme[cpu_start]="#FFB9A2"
-theme[cpu_mid]="#F26A52"
+theme[cpu_start]="#6CC49A"
+theme[cpu_mid]="#F2B84B"
 theme[cpu_end]="#E1251B"
-theme[used_start]="#FFB9A2"
-theme[used_mid]="#F26A52"
+theme[used_start]="#6CC49A"
+theme[used_mid]="#F2B84B"
 theme[used_end]="#E1251B"
 
 theme[free_start]="#3E7A5E"
@@ -43,10 +45,11 @@ theme[available_end]="#E6E2E4"
 theme[download_start]="#3D5A99"
 theme[download_mid]="#6F8FD6"
 theme[download_end]="#C9D0F0"
-theme[upload_start]="#871C23"
-theme[upload_mid]="#E1251B"
-theme[upload_end]="#FFB9A2"
+# Upload: Lenovo purples, so network traffic never looks like a warning
+theme[upload_start]="#7A126B"
+theme[upload_mid]="#B45AA6"
+theme[upload_end]="#D9C1D8"
 
-theme[process_start]="#E6E2E4"
-theme[process_mid]="#F26A52"
+theme[process_start]="#6CC49A"
+theme[process_mid]="#F2B84B"
 theme[process_end]="#E1251B"

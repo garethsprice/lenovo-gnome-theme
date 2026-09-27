@@ -10,12 +10,13 @@ Brand colours come from Lenovo's published guidelines ([brandworld.lenovo.com](h
 | Accent Red (light) | `#F26A52` | Red text and links on dark backgrounds (5.7:1 on `#1C1A1C`; Signature Red is only 3.7:1, below WCAG AA for text) |
 | Accent Red | `#B8252E` | Pressed and destructive states, borders |
 | Accent Red (dark) | `#871C23` | Unfocused selection, tmux message and copy-mode bars, btop selection |
-| Peach | `#FFB9A2` | Start of btop load gradients, bright yellow in the terminal palette |
+| Peach | `#FFB9A2` | Bright yellow in the terminal palette |
 | Deep Gray | `#4E444E` | Terminal black, pane borders, progress-bar track |
 | Mid Gray | `#ABA8B1` | Terminal white (ANSI 7) |
 | Pale Gray | `#E6E2E4` | Main text |
 | Pale Blue 1 | `#C9D0F0` | Terminal bright blue |
-| Pale Purple 1 | `#D9C1D8` | Terminal bright magenta |
+| Pale Purple 1 | `#D9C1D8` | Terminal bright magenta, top of btop upload graph |
+| Deep Purple 2 | `#7A126B` | Bottom of btop upload graph |
 | White | `#FFFFFF` | Text on Signature Red (4.7:1) |
 
 ## Neutral surfaces (derived)
@@ -40,6 +41,8 @@ The brand's "Black" (`#1E0013`) is noticeably purple, so the surfaces use neutra
 | Magenta | `#B45AA6` | `#D9C1D8` |
 | Cyan | `#5AB4C8` | `#9ADBE6` |
 | Bright black | `#8A8190` | |
+
+btop load graphs (CPU, temperature, used memory, per-process CPU) run green `#6CC49A` → yellow `#F2B84B` → Signature Red, so red only ever means high load.
 
 ## Type
 
