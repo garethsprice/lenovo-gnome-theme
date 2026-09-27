@@ -1,0 +1,7 @@
+{
+  "uuid": "lenovo-gnome-theme@lenovo-gnome-theme",
+  "name": "Lenovo GNOME Theme",
+  "description": "Recolours the top bar, shell popups and lock screen with the Lenovo brand palette. Styling only; lives in stylesheet.css. Unofficial, not affiliated with Lenovo.",
+  "shell-version": ["50"],
+  "session-modes": ["user", "unlock-dialog"]
+}

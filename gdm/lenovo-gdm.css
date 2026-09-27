@@ -1,0 +1,42 @@
+
+/* ===== Lenovo overrides (appended by gdm/build.sh) =====
+ *   Signature Red #E1251B · Accent Reds #EA4A3C / #B8252E · neutral dark grey #1C1A1C
+ *   Mirrors shell/lenovo-gnome-theme@lenovo-gnome-theme/stylesheet.css
+ */
+
+/* Background: the wallpaper passed to install.sh --wallpaper, or plain dark grey */
+#lockDialogGroup {
+  @BACKGROUND@
+}
+
+/* Top bar: dark grey, matching the desktop */
+#panel,
+#panel.login-screen,
+#panel.unlock-screen { background-color: #1C1A1C !important; }
+#panel.login-screen .panel-button,
+#panel.unlock-screen .panel-button { color: #E6E2E4; }
+
+/* Password / username entry */
+.login-dialog .login-dialog-prompt-entry,
+.login-dialog .login-dialog-prompt-entry:hover { background-color: rgba(28, 26, 28, 0.80); }
+.login-dialog .login-dialog-prompt-entry:focus {
+  background-color: rgba(28, 26, 28, 0.90);
+  box-shadow: inset 0 0 0 2px #E1251B !important;
+  selection-background-color: #E1251B;
+}
+
+/* Accent buttons and user list */
+.login-dialog-button.default,
+.button.default { background-color: #E1251B; color: #FFFFFF; }
+.login-dialog-button.default:hover,
+.button.default:hover { background-color: #EA4A3C; }
+.login-dialog-button.default:active,
+.button.default:active { background-color: #B8252E; }
+.login-dialog-user-list-view .login-dialog-user-list .login-dialog-user-list-item:logged-in .user-icon { border-color: #E1251B; }
+.login-dialog-user-list-view .login-dialog-user-list .login-dialog-user-list-item:logged-in .user-icon StIcon { background-color: rgba(225, 37, 27, 0.30); }
+
+/* Popups (keyboard/accessibility menus) and clock weights per brand guide */
+.popup-menu-content,
+.candidate-popup-content { background-color: #272427; border-color: #3A363A; }
+.unlock-dialog-clock .unlock-dialog-clock-time { font-weight: bold; }
+.unlock-dialog-clock .unlock-dialog-clock-date { font-weight: normal; }

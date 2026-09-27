@@ -1,0 +1,37 @@
+# Lenovo — Ghostty theme built from the Lenovo brand palette
+# Source: https://brandworld.lenovo.com/visual-identity/color/
+# Brand swatches are used verbatim where they have enough contrast on the
+# dark background. Lenovo has no green/yellow/cyan, so those (and a few
+# lightened tints of Deep Blue 2 / Deep Purple 2) are derived and marked "derived".
+
+background = #1c1a1c
+foreground = #e6e2e4
+cursor-color = #e1251b
+cursor-text = #ffffff
+selection-background = #871c23
+selection-foreground = #ffffff
+
+# black
+palette = 0=#4e444e
+palette = 8=#8a8190
+# red
+palette = 1=#e1251b
+palette = 9=#f26a52
+# green
+palette = 2=#6cc49a
+palette = 10=#a6e3c4
+# yellow
+palette = 3=#f2b84b
+palette = 11=#ffb9a2
+# blue
+palette = 4=#6f8fd6
+palette = 12=#c9d0f0
+# magenta
+palette = 5=#b45aa6
+palette = 13=#d9c1d8
+# cyan
+palette = 6=#5ab4c8
+palette = 14=#9adbe6
+# white
+palette = 7=#aba8b1
+palette = 15=#ffffff

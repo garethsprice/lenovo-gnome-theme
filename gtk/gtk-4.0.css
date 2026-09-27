@@ -1,0 +1,47 @@
+/* Lenovo brand palette for GTK4 / libadwaita (matches Ghostty "Lenovo" theme)
+ *   Signature Red #E1251B · Accent Reds #F26A52 / #B8252E · neutral dark greys
+ *   Pale Gray #E6E2E4
+ * Delete this file to revert to stock Yaru.
+ */
+
+/* Accent: applies in light and dark mode */
+:root {
+  --accent-bg-color: #E1251B;
+  --accent-fg-color: #FFFFFF;
+  --accent-color: #E1251B;
+}
+
+/* Surfaces: dark mode only, so light mode stays stock */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #F26A52;             /* lighter red for accent-coloured text on dark */
+
+    --window-bg-color: #1C1A1C;
+    --window-fg-color: #E6E2E4;
+    --view-bg-color: #161416;
+    --view-fg-color: #E6E2E4;
+
+    --headerbar-bg-color: #272427;
+    --headerbar-fg-color: #FFFFFF;
+    --headerbar-backdrop-color: #1C1A1C;
+
+    --sidebar-bg-color: #211E21;
+    --sidebar-fg-color: #E6E2E4;
+    --sidebar-backdrop-color: #1C1A1C;
+    --secondary-sidebar-bg-color: #1F1C1F;
+
+    --card-bg-color: rgb(255 255 255 / 5%);
+    --dialog-bg-color: #272427;
+    --popover-bg-color: #272427;
+    --thumbnail-bg-color: #272427;
+
+    --success-bg-color: #2E8A5E;
+    --success-color: #6CC49A;
+    --warning-bg-color: #C98A1A;
+    --warning-color: #F2B84B;
+    --destructive-bg-color: #B8252E;
+    --destructive-color: #F26A52;
+    --error-bg-color: #B8252E;
+    --error-color: #F26A52;
+  }
+}
